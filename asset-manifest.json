@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shop-app.github.io/static/css/main.c5092727.css",
+    "main.js": "/shop-app.github.io/static/js/main.3b18bd03.js",
+    "index.html": "/shop-app.github.io/index.html",
+    "main.c5092727.css.map": "/shop-app.github.io/static/css/main.c5092727.css.map",
+    "main.3b18bd03.js.map": "/shop-app.github.io/static/js/main.3b18bd03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5092727.css",
+    "static/js/main.3b18bd03.js"
+  ]
+}
