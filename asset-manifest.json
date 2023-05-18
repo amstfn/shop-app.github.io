@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/shop-app.github.io/static/css/main.512a1a4d.css",
-    "main.js": "/shop-app.github.io/static/js/main.11b3b8f3.js",
+    "main.js": "/shop-app.github.io/static/js/main.4e35e935.js",
     "index.html": "/shop-app.github.io/index.html",
     "main.512a1a4d.css.map": "/shop-app.github.io/static/css/main.512a1a4d.css.map",
-    "main.11b3b8f3.js.map": "/shop-app.github.io/static/js/main.11b3b8f3.js.map"
+    "main.4e35e935.js.map": "/shop-app.github.io/static/js/main.4e35e935.js.map"
   },
   "entrypoints": [
     "static/css/main.512a1a4d.css",
-    "static/js/main.11b3b8f3.js"
+    "static/js/main.4e35e935.js"
   ]
 }
