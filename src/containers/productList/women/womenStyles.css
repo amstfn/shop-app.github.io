@@ -1,0 +1,168 @@
+.womenListContainer {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.women-category-container {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/15/15/56/background-5574027_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.womenCategory-h1 {
+    margin-top: 0;
+    color: #727272;
+    background:
+        linear-gradient(270deg, #727272, transparent);
+}
+
+.women-category-list {
+    width: 600px;
+    height: 700px;
+    margin-left: 30%;
+    margin-top: 0;
+}
+
+.womenCategory-imageModel-shoe {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 5px solid #727272;
+    margin-bottom: 200px;
+}
+
+.womenCategory-imageModel-accessory {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 5px solid #727272;
+    margin-top: 50px
+}
+
+.women-h1 {
+    background:
+        linear-gradient(270deg, rgba(123, 59, 3, 0.594), transparent);
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+}
+
+.men-word-in-women-page {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    position: relative;
+    width: 80px;
+    height: 100%;
+    padding: 18px 0 0 0;
+    color: azure;
+    cursor: default;
+}
+
+.women-word-in-women-page {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    position: relative;
+    width: 140px;
+    height: 100%;
+    padding: 18px 0 0 0;
+    color: azure;
+    cursor: default;
+    border-right: 10px solid black;
+}
+
+#mobile-category-list {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .menu-container {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .women-category-container {
+        overflow: hidden;
+    }
+    .women-category-list {
+        width: 80vw;
+        height: 100%;
+        margin: 50px auto 0 auto;
+    }
+
+    .womenCategory-imageModel-shoe {
+        width: 80vw;
+        height: calc(100vh - 60vh);
+        margin: 0;
+    }
+
+    .womenCategory-imageModel-accessory {
+        width: 80vw;
+        height: calc(100vh - 60vh);
+        margin: 0;
+    }
+
+    .list-of-category {
+        display: none;
+    }
+
+    #mobile-category-list {
+        display: block;
+        position: fixed;
+        top: 15px;
+        left: 3px;
+        /* background-color: #919191; */
+    }
+
+    .menu-exit-button {
+        width: fit-content;
+        position: relative;
+        left: 188px;
+    }
+
+    .women-h1 {
+        width: calc(100vw - 15vw);
+        top: 15px;
+        left: 15vw;
+        margin-top: 0;
+    }
+
+    .menu-container {
+        position: fixed;
+        width: 217px;
+        height: calc(100vh - 50vh);
+        top: 59px;
+        background-color: #535252;
+        border-bottom-right-radius: 50%;
+    }
+
+    .word-menAndWomen {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: aliceblue;
+        margin-left: 10px;
+    }
+
+    .categories-name-mobile {
+        font-size: 20px;
+        color: rgba(229, 231, 233, 0.874);
+        font-family: 'Lobster', cursive;
+        font-size: 23;
+        letter-spacing: 1.5px;
+        list-style: none;
+        margin-top: 15px;
+    }
+    .categories-name-mobile > li {
+        margin-bottom: 15px;
+    }
+}
